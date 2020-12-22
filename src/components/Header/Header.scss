@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+
+  &__title {
+    font-size: 42px;
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 50px;
+
+    &__title {
+      margin-top: 12px;
+      margin-right: 5px;
+      font-size: 28px;
+    }
+  }
+}
