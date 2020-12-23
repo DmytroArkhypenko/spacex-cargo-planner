@@ -50,7 +50,7 @@ export const CompanyPage = () => {
       <p className="company_page__email">{email}</p>
       <p className="company_page__bays">
         Number of required cargo bays:
-        <span>{cargoBays}</span>
+        <span className="cargo_bays">{cargoBays}</span>
       </p>
       <div className="company_page__boxes">
         <label
